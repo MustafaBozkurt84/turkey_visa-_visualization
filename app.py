@@ -70,5 +70,5 @@ folium.Choropleth(
 
 
 
-folium_static(m, width=1200, height=650)
+folium_static(m, width=800, height=450)
 st.image('visa.png')
