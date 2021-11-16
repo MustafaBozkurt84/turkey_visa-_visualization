@@ -6,6 +6,7 @@ from streamlit_folium import folium_static
 import requests
 import branca
 st.set_page_config(layout ="wide")
+st.sidebar.write('https://github.com/MustafaBozkurt84')
 st.title('Visa policy of Turkey')
 GEOJSON_URL='https://raw.githubusercontent.com/johan/world.geo.json/master/countries.geo.json'
 response=requests.get(GEOJSON_URL)
